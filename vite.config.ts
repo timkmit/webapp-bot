@@ -7,7 +7,7 @@ export default defineConfig({
 
   define: {
     __IS_DEV__: JSON.stringify(true),
-    __API__: JSON.stringify('http://31.129.100.189')
+    __API__: JSON.stringify('http://31.129.100.189/api/')
   },
 
   resolve: {
