@@ -25,7 +25,7 @@ export const CategoryCard: FC<CategoryCardProps> = ({ category, onClick, onDelet
             className="active:bg-slate-400 transition-all rounded cursor-pointer"
         >
             <VStack justifyContent="center" alignItems="center" gap={5}>
-                {Product?.[0]?.images?.[0] ? <img src={__API__ + '/' + Product?.[0]?.images?.[0]} alt={name} /> : null}
+                {Product?.[0]?.images?.[0] ? <img src={'https://ilshaw.site' + '/' + Product?.[0]?.images?.[0]} alt={name} /> : null}
                 <Text color="link" size="large" className="text-center">
                     {name}
                 </Text>

@@ -40,7 +40,7 @@ export const ProductCard: FC<ProductCardProps> = ({
                     images={
                         inputImages?.length !== 0 && inputImages
                             ? inputImages
-                            : images.map((img) => __API__ + '/' + img)
+                            : images.map((img) => 'https://ilshaw.site' + '/' + img)
                     }
                 />
                 <VStack gap={1}>
