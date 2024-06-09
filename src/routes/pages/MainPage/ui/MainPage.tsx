@@ -9,9 +9,9 @@ const MainPage = () => {
         <Page className="flex justify-center items-center h-screen">
             <div className="flex flex-col gap-2 items-center">
                 <Text className="text-2xl font-semibold mb-4">Навигация</Text>
-                <Button onClick={() => nav(getRouteSearchById())}>search/byid</Button>
-                <Button onClick={() => nav(getRouteSearch())}>search/process</Button>
-                <Button onClick={() => nav(getRoutePostProduct())}>add</Button>
+                <Button onClick={() => nav(getRouteSearchById())}>Поиск по названию</Button>
+                <Button onClick={() => nav(getRouteSearch())}>Поиск по параментрам</Button>
+                <Button onClick={() => nav(getRoutePostProduct())}>Добавить товар</Button>
             </div>
         </Page>
     )
